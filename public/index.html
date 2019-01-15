@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset='UTF-8'/>
     <title>CSS/HTML Workshop with Privateaser</title>
+    <link rel='stylesheet' href='style.css'/>
   </head>
   <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
+    <div class="header">
+      <h1>Privateaser</h1>
+  </div>
+    <div class="page">
+      <div class="bloc" id="bar">
+        <h2>Bar informations</h2>
+        <div class="ligne">
+          <label class = "label">Bar name</label>
+          <input class="js-name" type="text"/>
+        </div>
+        <div class="ligne">
+          <label class = "label">Price by hour</label>
+          <input class="js-price-by-hour" type="number"/>
+        </div>
+        <div class="ligne">
+          <label class = "label">Price by person</label>
+          <input class="js-price-by-person" type="number"/>
+        </div>
+      </div>
+      <div class="bloc" id="booker">
+        <h2>Booker informations</h2>
+        <div class="ligne">
+          <label class = "label">Name</label>
+          <input class="js-name" type="text"/>
+        </div>
+        <div class="ligne">
+          <label class = "label">Time in hour</label>
+          <input class="js-time" type="number"/>
+        </div>
+        <div class="ligne">
+          <label class = "label">Persons</label>
+          <input class="js-persons" type="number"/>
+        </div>
+        <div class="ligne">
+          <label class = "label">Deductible option</label>
+          <input class="js-option" type="checkbox"/>
+        </div>
+      </div>
+      <button id="compute">Compute</button>
+      <div class="center" id="actors"></div>
     </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="privateaser.js"></script>
-    <script src="index.js"></script>
+      <script src="privateaser.js"></script>
+      <script src="index.js"></script>
   </body>
 </html>
