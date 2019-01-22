@@ -1,7 +1,6 @@
 .header {
   width: 650px;
   margin: 0 auto;
-  padding: 10px ;
   color: #6BD3D8;
   background-color: #2F3E4E;
 }
@@ -27,6 +26,10 @@
   display: flex;
   justify-content: space-between;
   margin: 3px 50px;
+}
+
+#actor{
+  margin: 20px auto;
 }
 
 #compute {
@@ -67,4 +70,25 @@ button {
 button:hover {
   background-color: #77eff4;
   color: white;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+  background-color: #696969;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    margin-left: 100px
 }
