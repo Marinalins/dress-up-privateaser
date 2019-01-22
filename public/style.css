@@ -34,7 +34,7 @@
 
 #compute {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 h1 {
@@ -74,13 +74,15 @@ button:hover {
 
 td,
 th {
+    width: 120px;
     border: 1px solid rgb(190, 190, 190);
     padding: 10px;
     text-align: center;
 }
 
 th {
-  background-color: #696969;
+    width: 120px;
+    background-color: #696969;
     color: #fff;
 }
 
@@ -90,5 +92,5 @@ table {
     letter-spacing: 1px;
     font-family: sans-serif;
     font-size: .8rem;
-    margin-left: 100px
+    margin: 0 auto;
 }
